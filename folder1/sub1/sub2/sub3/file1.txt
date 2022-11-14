@@ -1,3 +1,5 @@
 A file with some contents
 #I am changing this, but it is in an excluded folder and should not
-trigger sync. 
+trigger sync.
+#Changing again, now with the file explisitly marked as excluded (not
+just whole folder)
