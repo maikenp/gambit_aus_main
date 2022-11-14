@@ -1,0 +1,10 @@
+maikenp/gambit_aus_fork:
+    - BUILD_OPTIONS.md
+    - source: folder1/
+      dest: folder1/
+      exclude: |
+        sub1/sub2/sub3/
+    - source: folder2/
+      dest: folder2/
+    - source: folder3/
+      dest: folder3/
