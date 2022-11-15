@@ -1,9 +1,10 @@
 maikenp/gambit_aus_fork:
-    - BUILD_OPTIONS.md
+    - file_to_sync.txt
     - source: folder1/
       dest: folder1/
       exclude: |
-        sub1/sub2/sub3/file1.txt
+        sub1/sub2/sub3
+        sub1/sub2/sub3/file_to_exclude.txt
     - source: folder2/
       dest: folder2/
     - source: folder3/
