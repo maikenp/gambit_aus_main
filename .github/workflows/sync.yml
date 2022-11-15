@@ -12,7 +12,7 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@main
       - name: Run GitHub File Sync
-        uses: maikenp/repo-file-sync-action
+        uses: maikenp/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.GAMBIT_FORK_SYNC_SECRET }}
           PR_BODY: "***This PR is auto-created to ensure that files are synced with Gambit:main***"

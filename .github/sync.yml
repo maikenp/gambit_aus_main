@@ -3,7 +3,7 @@ maikenp/gambit_aus_fork:
     - source: folder1/
       dest: folder1/
       exclude: |
-        sub1/sub2/sub3/
+        sub1/sub2/sub3/file1.txt
     - source: folder2/
       dest: folder2/
     - source: folder3/
