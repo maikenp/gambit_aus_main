@@ -1,0 +1,1 @@
+This file is in subfolder sub2 and should be synced
