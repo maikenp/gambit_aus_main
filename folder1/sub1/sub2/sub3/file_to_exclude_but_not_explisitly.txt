@@ -1,0 +1,1 @@
+Some file that is just under sub3 and therefore should be excluded
